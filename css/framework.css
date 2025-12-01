@@ -1,0 +1,173 @@
+:root {
+  --main-transition: 0.3s;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+.tt-cap{
+  text-transform: capitalize;
+}
+.d-flex{
+  display: flex;
+}
+.f-wrap{
+  flex-wrap: wrap;
+}
+.space-between{
+  justify-content: space-between;
+}
+.between-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d-block{
+  display: block;
+}
+@media (max-width:767px){
+  .d-block-mobo{
+    display: block;
+  }
+}
+.d-grid{
+  display: grid;
+}
+.gap-20{
+  gap: 20px;
+}
+.t-c{
+  text-align: center;
+}
+@media (max-width:767px){
+  .t-c-mobo{
+    text-align: center;
+  }
+}
+.bg-white{
+  background-color: white;
+}
+.bg-eee{
+  background-color: #eee;
+}
+.bg-blue{
+  background-color: var(--blue-color);
+}
+.bg-orange{
+  background-color: var(--orange-color);
+}
+.bg-green{
+  background-color: var(--green-color);
+}
+.w-full{
+  width: 100%;
+}
+.w-fit{
+  width: fit-content;
+}
+.b-none{
+  border: none;
+}
+.pd-10{
+  padding: 10px;
+}
+.pd-15{
+  padding: 15px;
+}
+.pd-20{
+  padding: 20px;
+}
+.p-relative{
+  position: relative;
+}
+.m-auto{
+  margin: auto;
+}
+.m-20{
+  margin: 20px;
+}
+.m-0{
+  margin: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
+.mt-5{
+  margin-top: 5px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mb-5{
+  margin-bottom: 5px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mtb-20{
+  margin:20px 0;
+}
+.items-center{
+  align-items: center;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.c-black{
+  color: black;
+}
+.c-grey{
+  color: var(--grey-color);
+}
+.c-white{
+  color: white;
+}
+.c-red{
+  color: var(--red-color);
+}
+.c-blue{
+  color: var(--blue-color);
+}
+.c-orange{
+  color: var(--orange-color);
+}
+.c-green{
+  color: var(--green-color);
+}
+.rad-6{
+  border-radius: 6px;
+}
+.rad-10{
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .hide-moblie {
+    display: none;
+  }
+}
+.btn-shape{
+  padding: 4px 10px;
+  text-transform: capitalize;
+}
